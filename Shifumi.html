@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shi - Fu - Mi</title>
+    <link rel="stylesheet" href="shifumi.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container glassform">
+        
+        <div class="score">
+          <h1>Score</h1>
+          <p id="scoreplayer"> 0</p>
+          <p id="scorecomputer"> 0</p>
+          <div id ="reset">Recommencer</div>
+        </div>
+
+
+        <div class="choix-joueur" id="pierre">
+          <button id="pierre">Pierre</button>
+          <span>✊</span>
+        </div>
+
+        <div class="choix-joueur" id="papier">
+          <button id="papier">Papier</button>
+          <span>🤚</span>
+        </div>
+
+        <div class="choix-joueur" id="ciseaux">
+          <button id="ciseaux">Ciseaux</button>
+          <span>✌️</span>
+        </div>
+
+        <div class="resultat">
+            <!-- <div class="resultat-joueur">
+                <p>Choix Joueur :</p>
+            </div>
+
+            <div class="resultat-computer">
+                <p>Choix Computer : </p>
+            </div> -->
+
+            <div class="resultat">
+                <p id="message">A vous de jouer </p>
+            </div>
+        </div>
+
+        
+          <button id="next">Tour suivant</button>
+        
+
+        <div class="choix-IA" id="c-pierre">
+            <span>✊</span>
+          <button id="pierre">Pierre</button>
+        </div>
+
+        <div class="choix-IA" id="c-papier">
+            <span>🤚</span>
+          <button id="papier">Papier</button>
+        </div>
+
+        <div class="choix-IA" id="c-ciseaux">
+            <span>✌</span>
+          <button id="ciseaux">Ciseaux</button>
+        </div>
+        <button id="random"></button>
+      </div>
+    </div>
+
+    <script src="scriptShifumi.js"></script>
+  </body>
+</html>
